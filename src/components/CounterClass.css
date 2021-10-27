@@ -1,0 +1,36 @@
+.counterClass {
+  border: solid;
+  height: 20rem;
+  width: 20rem;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease;
+}
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 100%;
+  padding: 0.75rem;
+  margin: 0.75rem;
+  color: rgb(231, 231, 231);
+  background: rgb(12, 8, 5);
+  border: transparent;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

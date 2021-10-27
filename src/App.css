@@ -1,9 +1,14 @@
 .App {
-  text-align: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -35,4 +40,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+  height: 30rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.containerH {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
