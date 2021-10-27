@@ -4,7 +4,7 @@ import "./CounterFunction.css";
 export const CounterFunction = (props) => {
   const [state, setState] = useState({
     titulo: "Counter",
-    subtitulo: "Function Component",
+    subtitulo: "Functional Component",
     resultado: 0,
   });
 
